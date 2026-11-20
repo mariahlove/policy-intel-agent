@@ -1,0 +1,58 @@
+# Source registry — first core sources. Grows to ~60.
+# Fields: name, url, type (rss|html|api), tier (1 = instant alert, 2 = digest), interval_min
+sources:
+  - name: "National Health Commission"
+    url: "https://www.nhc.gov.cn"
+    type: html
+    tier: 1
+    interval_min: 60
+  - name: "National Medical Products Administration"
+    url: "https://www.nmpa.gov.cn"
+    type: html
+    tier: 1
+    interval_min: 60
+  - name: "National Healthcare Security Administration"
+    url: "https://www.nhsa.gov.cn"
+    type: html
+    tier: 1
+    interval_min: 60
+  - name: "Ministry of Science and Technology"
+    url: "https://www.most.gov.cn"
+    type: html
+    tier: 1
+    interval_min: 120
+  - name: "National Development and Reform Commission"
+    url: "https://www.ndrc.gov.cn"
+    type: html
+    tier: 2
+    interval_min: 120
+  - name: "The State Council (gov.cn)"
+    url: "https://www.gov.cn"
+    type: html
+    tier: 1
+    interval_min: 60
+  - name: "Shanghai Municipal People's Government"
+    url: "https://www.shanghai.gov.cn"
+    type: html
+    tier: 1
+    interval_min: 60
+  - name: "Shanghai Municipal Health Commission"
+    url: "https://wsjkw.sh.gov.cn"
+    type: html
+    tier: 1
+    interval_min: 60
+  - name: "Shanghai Medical Products Administration"
+    url: "https://yjj.sh.gov.cn"
+    type: html
+    tier: 1
+    interval_min: 120
+  - name: "Shanghai Medical Security Bureau"
+    url: "https://ybj.sh.gov.cn"
+    type: html
+    tier: 1
+    interval_min: 120
+  - name: "Pudong New Area People's Government"
+    url: "https://www.pudong.gov.cn"
+    type: html
+    tier: 1
+    interval_min: 120
